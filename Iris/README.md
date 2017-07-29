@@ -13,7 +13,7 @@
 
 ![](pic/RegistryLessPersistent.gif)
 
-# Not Operating From User Land & and the user is not a local admin.
+# Not Operating From User Land & and the user is the domain admin.
 
 ![](pic/out-6.gif)
 
