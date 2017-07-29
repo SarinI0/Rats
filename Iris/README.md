@@ -8,4 +8,5 @@
 ![](pic/Cvrtf2.png)
 
 # Persistence
+No Registry
 ![](pic/RegistryLessPersistent.gif)
