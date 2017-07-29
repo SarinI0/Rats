@@ -4,12 +4,16 @@
 ![](pic/out-11.gif)
 
 # Av
-No treats detected..<br>
-<br>
+# No treats detected & No FireWall Block or user interactions.
 ![](pic/Cvrtf.png)
 ![](pic/Cvrtf2.png)
 
 # Persistence
-No Registry.. <br>
-<br>
+# No Registry
+
 ![](pic/RegistryLessPersistent.gif)
+
+# Not Operating From User Land & and the user is not a local admin.
+
+![](pic/out-6.gif)
+
