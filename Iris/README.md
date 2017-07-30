@@ -4,7 +4,7 @@
 ![](pic/out-11.gif)
 
 # Av
-# No treats detected & No FireWall Block or user interactions.
+# No threats detected & No FireWall Block or user interactions.
 ![](pic/Cvrtf.png)
 ![](pic/Cvrtf2.png)
 
