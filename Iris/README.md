@@ -12,13 +12,17 @@ in addition i will say that getting a Cv for a job application in the form of an
 The .rtf itself contains a .vbe payload that will force winword.exe to download an encrypted zip folder that contains our installer & the native drivers.<br>
 after download the script calls the decryptor with the decryption key and that executable extract's the intallation files to the target machine (in a writable location) to infect the target machine.
 # Spec: view delivery section under the /src directory.
-# Delivery
 # Installer:
 The first thing Our installer do is to bypass uac throw registry hijacking to trigger another executable that duplicates the system token and allows as to manipulate the target as NT Authority\System. in this kit we only utilize a uac bypass assuming that the target user is a member of the administative group, but we can easly exchange this mechanism of action to another LPE to support all test cases. see my "JailBreaks" repo for that.<br>
 for Persistance on the target machine and to hide our activity we install a native driver that we will cover in the next sections and make some necessary changes to the target machine. all our payload files are places in the SysWow64 directory as to hide your activity (that targets specific x64 windows machine's) and to support most .NET components of the payload. as will be explained later on.<br>
 after the installer is done it will kindly delete himself from the target machine and all other installation media to hide from debuggers and Av scanners. in addition throw the entire process i try to use as many native Windows API's as possible to avoid vertioning problems and Av detection at any phase of the rat action.<br>
 Meaning that technically i load the driver with sc.exe i load my payload with sdclt and try to use as many native loaders to avoid detection & unnecessary and complex digital signiture's forgary or user interactions.<br>
 In adition an important part of our persistent on the target machine is to hide our own activity, for that we try to avoid registry manipulation as far as possible and we use native API's to add exception's to our backdoors and C&C implementations. as to leave as little as possible sign's of our existance on the target machine.
+
+
+# Proof Of Concept
+
+# Delivery
 ![](pic/out-11.gif)
 
 # Av
