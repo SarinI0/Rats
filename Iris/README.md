@@ -39,6 +39,7 @@ you will need WDK, VS 2015 & VS 2017.
 
 # Tested On Latest Windows and office & against the latest anti-virus software & email delivery retailers, and to the date given:
 # 1/8/2017
+# Notes: This Rat Do not support smart firewall campaigns and as such do not utilize any UDP packets to the root c&c server.
 # Proof Of Concept
 
 # Delivery
