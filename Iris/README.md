@@ -23,7 +23,7 @@ In adition an important part of our persistent on the target machine is to hide 
 any modern anti-virus software makes use of the "reputational method" meaning that evan if your payload is succesfully signed by a root spc authorety it doesn't necessarily mean that the target machine will execute the given payload simply because the reputation of your software is not recognized by the Av users compunity and as such may be blocked by any Respectfull Av campaign. becouse of that we target two native's WinWord that is white listed to execute nay vbscript (i will explain why i use this native and not powershell). and WScript engauine to execute our Eop, after Eop we have the necessary permissions to execute any given software w/o any Av interference.
 
 # There Are Two Options to Execute your payload and bypass all Av software. (afaik)...
-One -> Execute an rtf working under winword.
+One -> Execute an rtf working under winword.<br>
 Second -> Execute a sign VBE (simply because a script do not hold reputation, so open file will not block your application due to signature and the Av will not recognize a bad reputation simply cuz this is a vbe...).
 i will point out that if you are working under windows 10 build 14 and lower, there exist a possibility of packing your payload inside a signed .cab file (for open file warnings), or simply using .hta application that (for some reason), on that older win builds do not suffer the open file or Av detection at any given time, but in this Repo we utilize the .rtf described above.
 
