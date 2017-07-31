@@ -1,5 +1,5 @@
 # Iris
-# Intoduction: throw the entire repository i assume that any APT vendor will have the necessary equipment to implement this sort of attack vendor.
+# Intoduction: throw the entire repository i assume that any APT vendor will have the necessary equipment to implement this sort of campaign.
 # Description
 Iris is an adjudicational Trojan & a fullon RootKit, Targeting windows machine's, maid for Research purposes<br>
 And as a resource Kit for ethical hackers.
