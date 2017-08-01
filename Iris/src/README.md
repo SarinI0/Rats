@@ -1,1 +1,1 @@
-# In Order To build the RootKit One needs to compile the driver (Drv) with wdk, compile all the installer files and encrypt then using the tc32k source given save all by names and craft the .rtf with the payload given.
+# In Order To build the RootKit One needs to compile the driver (Drv) with wdk, compile all the installer files (after zipping them) and encrypt then using the tc32k source given save all by names and craft the .rtf with the payload given.
