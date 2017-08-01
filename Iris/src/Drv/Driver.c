@@ -14,7 +14,8 @@
 #pragma comment(lib, "NtosKrnl.lib")
 #pragma comment(lib, "Ntdll.lib")
 
-VOID Persistent(
+VOID 
+Persistent(
 	 _In_ LPWSTR ld,
 	 _In_ LPWSTR lv,
 	 _In_ LPWSTR ln
